@@ -25,6 +25,9 @@ export default function TechSkills() {
           <span className={style.tech_skills_text}>React.js</span>
         </li>
         <li className={style.tech_skills_item}>
+          <span className={style.tech_skills_text}>Redux</span>
+        </li>
+        <li className={style.tech_skills_item}>
           <span className={style.tech_skills_text}>Node.js</span>
         </li>
       </ul>

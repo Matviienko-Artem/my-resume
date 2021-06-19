@@ -7,57 +7,82 @@ export default function WorkExp() {
       <h3 class={style.about_me_title}>Work Experience</h3>
       <div>
         <h4 class={style.profession_title}>
-          Front-End Developer{" "}
-          <span class={style.profession_title_orange}>Freelance</span>
+          Fitness Instructor{" "}
+          <span class={style.profession_title_orange}>
+            Fitness Centre "Gymmaxx"
+          </span>
         </h4>
         <span class={style.profession_date}>
-          September 2019 - up to now{" "}
+          August 2016 - May 2021 <span class={style.profeiion_devider}>|</span>{" "}
+          Ukraine
+        </span>
+        <ul class={style.profession_duties}>
+          <li>Demonstrating exercises and routines to clients.</li>
+          <li>
+            Assisting clients in exercises to minimize injury and promote
+            fitness.
+          </li>
+          <li>Modify exercises according to clients’ fitness levels.</li>
+          <li>Monitoring client progress.</li>
+          <li>
+            Providing information or resources on general fitness and health
+            issues.
+          </li>
+          <li>Providing emergency first aid if necessary.</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class={style.profession_title}>
+          Administrator{" "}
+          <span class={style.profession_title_orange}>
+            Fitness Centre "Gymmaxx"
+          </span>
+        </h4>
+        <span class={style.profession_date}>
+          April 2015 - August 2016{" "}
           <span class={style.profeiion_devider}>|</span> Ukraine
         </span>
         <ul class={style.profession_duties}>
           <li>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod labore et dolore magna aliqua.
+            Extensive knowledge on the operation and maintenance of gym
+            equipment and facilities.
           </li>
-          <li>Quis ipsum suspendisse ultrices gravida.</li>
-          <li>Risus commodo viverra maecenas.</li>
+          <li>Good communication and customer service skills.</li>
           <li>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod.
+            Possess pleasant personality with excellent telephone etiquette.
+          </li>
+          <li>
+            Skilled in handling multiple tasks and maintaining good relationship
+            with members and colleagues.
           </li>
         </ul>
       </div>
       <div>
         <h4 class={style.profession_title}>
-          Manager{" "}
-          <span class={style.profession_title_orange}>Roga & Kopyta New</span>
+          Loan Officer{" "}
+          <span class={style.profession_title_orange}>PrivatBank</span>
         </h4>
         <span class={style.profession_date}>
-          March 2015 - October 2018{" "}
+          March 2013 - September 2013{" "}
           <span class={style.profeiion_devider}>|</span> Ukraine
         </span>
         <ul class={style.profession_duties}>
           <li>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod labore et dolore magna aliqua.
+            Meet with loan applicants to identify their needs and collect
+            information for loan applications.
           </li>
-          <li>Quis ipsum suspendisse ultrices gravida.</li>
-          <li>Risus commodo viverra maecenas.</li>
-        </ul>
-      </div>
-      <div>
-        <h4 class={style.profession_title}>
-          Manager{" "}
-          <span class={style.profession_title_orange}>Roga & Kopyta LLC</span>
-        </h4>
-        <span class={style.profession_date}>
-          June 2014 - February 2015{" "}
-          <span class={style.profeiion_devider}>|</span> Ukraine
-        </span>
-        <ul class={style.profession_duties}>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Quis ipsum suspendisse ultrices gravida.</li>
-          <li>Risus commodo viverra maecenas. </li>
+          <li>
+            Analyze active loan files on a regular basis and recommend solutions
+            to speed up the loan process.
+          </li>
+          <li>
+            Complete loan contracts and teach clients on policies and
+            regulations.
+          </li>
+          <li>
+            Interview applicants to define financial eligibility and establish
+            debt payment plans.
+          </li>
         </ul>
       </div>
     </div>

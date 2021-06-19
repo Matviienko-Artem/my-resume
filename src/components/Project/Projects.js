@@ -11,13 +11,17 @@ export default function Projects() {
           <a
             class={style.projects_link}
             href="https://matviienko-artem.github.io/goit-markup-hw-08/"
+            target="_blank"
+            rel="noreferrer"
           >
-            matviienko-artem.github.io/goit-markup-hw-08/{" "}
+            Web Studio{" "}
           </a>
-          <span class={style.dots}>...............</span>
+          <span class={style.dots}>
+            ...............................................
+          </span>
           <span>
             <b>[ </b>
-            <span class={style.tech_name}>HTML5, CSS3</span>
+            <span class={style.tech_name}>HTML5, CSS3, Adaptive Web Page</span>
             <b> ]</b>
           </span>
         </li>
@@ -26,8 +30,10 @@ export default function Projects() {
           <a
             class={style.projects_link}
             href="https://github.com/MaksimLisovoi/team-project-js-filmoteka"
+            target="_blank"
+            rel="noreferrer"
           >
-            github.com/MaksimLisovoi/team-project-js-filmoteka{" "}
+            Team Project Filmoteka{" "}
           </a>
           <span class={style.dots}>..................</span>
           <span>
@@ -41,13 +47,17 @@ export default function Projects() {
           <a
             class={style.projects_link}
             href="https://matviienko-artem.github.io/goit-react-hw-03-image-finder/"
+            target="_blank"
+            rel="noreferrer"
           >
-            matviienko-artem.github.io/goit-react-hw-03-image-finder/{" "}
+            Image Finder{" "}
           </a>
-          <span class={style.dots}>........................</span>
+          <span class={style.dots}>
+            ..........................................
+          </span>
           <span>
             <b>[ </b>
-            <span class={style.tech_name}>React.js</span>
+            <span class={style.tech_name}>React.js ,Pixabay API</span>
             <b> ]</b>
           </span>
         </li>
@@ -56,13 +66,17 @@ export default function Projects() {
           <a
             class={style.projects_link}
             href="https://matviienko-artem-goit-react-hw-04-movies.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
           >
-            matviienko-artem-goit-react-hw-04-movies.netlify.app/{" "}
+            Movies{" "}
           </a>
-          <span class={style.dots}>..................</span>
+          <span class={style.dots}>
+            ..........................................................
+          </span>
           <span>
             <b>[ </b>
-            <span class={style.tech_name}>React.js</span>
+            <span class={style.tech_name}>React.js, Themoviedb API</span>
             <b> ]</b>
           </span>
         </li>
@@ -71,13 +85,17 @@ export default function Projects() {
           <a
             class={style.projects_link}
             href="https://matviienko-artem-goit-react-hw-09-phonebook.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
           >
-            matviienko-artem-goit-react-hw-09-phonebook.netlify.app{" "}
+            Phonebook{" "}
           </a>
-          <span class={style.dots}>..................</span>
+          <span class={style.dots}>
+            ..............................................
+          </span>
           <span>
             <b>[ </b>
-            <span class={style.tech_name}>React.js</span>
+            <span class={style.tech_name}>React.js, Redux</span>
             <b> ]</b>
           </span>
         </li>
