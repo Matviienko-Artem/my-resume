@@ -1,9 +1,10 @@
-import React from "react";
-import style from "./SideBar.module.css";
-import photo from "./photo_artem.jpg";
-import Contacts from "./Contacts/Contacts";
-import TechSkills from "./TechSkills/TechSkills";
-import SoftSkills from "./SoftSkills/SoftSkills";
+import React from 'react';
+import style from './SideBar.module.css';
+import photo from './photo_artem.jpg';
+import Contacts from './Contacts/Contacts';
+import TechSkills from './TechSkills/TechSkills';
+import SoftSkills from './SoftSkills/SoftSkills';
+import LanguageSkills from './LanguageSkills/LanguageSkills';
 
 export default function SideBar() {
   return (
@@ -12,6 +13,7 @@ export default function SideBar() {
       <Contacts />
       <TechSkills />
       <SoftSkills />
+      <LanguageSkills />
     </aside>
   );
 }

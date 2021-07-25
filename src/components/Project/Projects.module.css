@@ -3,25 +3,32 @@
   font-weight: 700;
   line-height: 24px;
   margin-top: 55px;
-  margin-bottom: 20px;
 }
 .projects_link {
-  color: #a1a1a1;
+  color: #ff6b08;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
 }
 .tech_name {
-  color: #a1a1a1;
+  color: #000;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
 }
 .dots {
-  color: #a1a1a1;
+  color: #000000;
   font-weight: 100;
 }
 .projects_item {
   font-weight: 700;
   margin-left: 20px;
+  margin-top: 15px;
+}
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  width: 413px;
 }
