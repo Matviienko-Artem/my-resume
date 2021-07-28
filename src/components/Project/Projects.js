@@ -10,6 +10,30 @@ export default function Projects() {
           {' '}
           <a
             className={style.projects_link}
+            href="https://wallet-app-project-nn33mm.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Wallet{' '}
+          </a>
+          <span className={style.dots}>
+            ............................................................
+          </span>
+          <span>
+            <b>[ </b>
+            <span className={style.tech_name}>React.js, Redux, Node.js</span>
+            <b> ]</b>
+          </span>
+          <p className={style.description}>
+            <b>About project:</b> This is online wallet,you can keep track of
+            your money and see statistics of your expenses. Using React.js,
+            Redux, Node.js and libraries ( Chart.js, Formik ).
+          </p>
+        </li>
+        <li className={style.projects_item}>
+          {' '}
+          <a
+            className={style.projects_link}
             href="https://matviienko-artem.github.io/goit-markup-hw-08/"
             target="_blank"
             rel="noreferrer"
@@ -35,7 +59,7 @@ export default function Projects() {
           {' '}
           <a
             className={style.projects_link}
-            href="https://github.com/MaksimLisovoi/team-project-js-filmoteka"
+            href="https://maksimlisovoi.github.io/team-project-js-filmoteka/"
             target="_blank"
             rel="noreferrer"
           >
@@ -53,7 +77,7 @@ export default function Projects() {
             JavaScript, CSS3 and npm-packages.
           </p>
         </li>
-        <li className={style.projects_item}>
+        {/* <li className={style.projects_item}>
           {' '}
           <a
             className={style.projects_link}
@@ -121,7 +145,7 @@ export default function Projects() {
             <b>About project:</b> This is phonebook. You can register and add
             contacts to yours phonebook. Using React.js, Redux.
           </p>
-        </li>
+        </li> */}
       </ol>
     </div>
   );
