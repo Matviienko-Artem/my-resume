@@ -46,9 +46,8 @@ export default function Projects() {
             <b> ]</b>
           </span>
           <p className={style.description}>
-            <b>About project:</b> This is online wallet,you can keep track of
-            your money and see statistics of your expenses. Using React.js,
-            Redux, Node.js and libraries ( Chart.js, Formik ).
+            <b>About project:</b> This is school of energy practices. This is a
+            commercial project.
           </p>
         </li>
         {/* <li className={style.projects_item}>
