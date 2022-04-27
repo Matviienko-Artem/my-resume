@@ -7,6 +7,28 @@ export default function WorkExp() {
       <h3 className={style.about_me_title}>Work Experience</h3>
       <div>
         <h4 className={style.profession_title}>
+          Front-end Developer{' '}
+          <span className={style.profession_title_orange}>
+            Digital Agency "SMELO"
+          </span>
+        </h4>
+        <span className={style.profession_date}>
+          September 2021 - April 2022{' '}
+          <span className={style.profeiion_devider}>|</span> Ukraine
+        </span>
+        <ul className={style.profession_duties}>
+          <li>Bringing the designer's vision to life.</li>
+          <li>Planned, developed, deployed and maintained web applications.</li>
+          <li>Worked with Wordpress.</li>
+          <li>
+            Provided effective troubleshooting and remediation for web
+            applications.
+          </li>
+          <li>Worked well independently and within a team setting.</li>
+        </ul>
+      </div>
+      <div>
+        <h4 className={style.profession_title}>
           Fitness Instructor{' '}
           <span className={style.profession_title_orange}>
             Fitness Centre "Gymmaxx"
@@ -31,7 +53,7 @@ export default function WorkExp() {
           <li>Providing emergency first aid if necessary.</li>
         </ul>
       </div>
-      <div>
+      {/* <div>
         <h4 className={style.profession_title}>
           Administrator{' '}
           <span className={style.profession_title_orange}>
@@ -56,7 +78,7 @@ export default function WorkExp() {
             with members and colleagues.
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }

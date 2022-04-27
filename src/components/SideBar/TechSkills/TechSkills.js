@@ -19,7 +19,7 @@ export default function TechSkills() {
           <span className={style.tech_skills_text}>GIT</span>
         </li>
         <li className={style.tech_skills_item}>
-          <span className={style.tech_skills_text}>WebPack/Gulp</span>
+          <span className={style.tech_skills_text}>WebPack</span>
         </li>
         <li className={style.tech_skills_item}>
           <span className={style.tech_skills_text}>JavaScript</span>
@@ -33,9 +33,9 @@ export default function TechSkills() {
         <li className={style.tech_skills_item}>
           <span className={style.tech_skills_text}>REST API</span>
         </li>
-        <li className={style.tech_skills_item}>
+        {/* <li className={style.tech_skills_item}>
           <span className={style.tech_skills_text}>Node.js</span>
-        </li>
+        </li> */}
         <li className={style.tech_skills_item}>
           <span className={style.tech_skills_text}>Scrum</span>
         </li>

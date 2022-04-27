@@ -7,14 +7,58 @@ export default function Projects() {
       <h3 className={style.about_me_title}>Projects</h3>
       <ol>
         <li className={style.projects_item}>
-          {' '}
+          <a
+            className={style.projects_link}
+            href="https://novus.crm-service.com.ua/eyJzaG9wIjoiMTA0NyIsImxvY2F0aW9uIjoiMTA0N18xMSJ9"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Novus (mobile questionnaire)
+          </a>
+          <span className={style.dots}>
+            ............................................................
+          </span>
+          <span>
+            <b>[ </b>
+            <span className={style.tech_name}>HTML5, CSS3 ,JavaScript</span>
+            <b> ]</b>
+          </span>
+          <p className={style.description}>
+            <b>About project:</b> Mobile quality of service questionnaire for
+            Novus clients.
+          </p>
+        </li>
+        <li className={style.projects_item}>
+          <a
+            className={style.projects_link}
+            href="https://matviienko-artem.github.io/CoW_pure/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Circle of White
+          </a>
+          <span className={style.dots}>
+            ............................................................
+          </span>
+          <span>
+            <b>[ </b>
+            <span className={style.tech_name}>HTML5, CSS3 ,JavaScript</span>
+            <b> ]</b>
+          </span>
+          <p className={style.description}>
+            <b>About project:</b> This is online wallet,you can keep track of
+            your money and see statistics of your expenses. Using React.js,
+            Redux, Node.js and libraries ( Chart.js, Formik ).
+          </p>
+        </li>
+        {/* <li className={style.projects_item}>
           <a
             className={style.projects_link}
             href="https://wallet-app-project-nn33mm.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            Wallet{' '}
+            Wallet
           </a>
           <span className={style.dots}>
             ............................................................
@@ -29,9 +73,8 @@ export default function Projects() {
             your money and see statistics of your expenses. Using React.js,
             Redux, Node.js and libraries ( Chart.js, Formik ).
           </p>
-        </li>
+        </li> */}
         <li className={style.projects_item}>
-          {' '}
           <a
             className={style.projects_link}
             href="https://matviienko-artem.github.io/goit-markup-hw-08/"
@@ -59,28 +102,6 @@ export default function Projects() {
           {' '}
           <a
             className={style.projects_link}
-            href="https://maksimlisovoi.github.io/team-project-js-filmoteka/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Team Project Filmoteka{' '}
-          </a>
-          <span className={style.dots}>..................</span>
-          <span>
-            <b>[ </b>
-            <span className={style.tech_name}>HTML5, CSS3 ,JavaScript</span>
-            <b> ]</b>
-          </span>
-          <p className={style.description}>
-            <b>About project:</b> Team project about searching movies, and
-            adding favorite movies to a client personal library. Using pure
-            JavaScript, CSS3 and npm-packages.
-          </p>
-        </li>
-        {/* <li className={style.projects_item}>
-          {' '}
-          <a
-            className={style.projects_link}
             href="https://matviienko-artem.github.io/goit-react-hw-03-image-finder/"
             target="_blank"
             rel="noreferrer"
@@ -101,6 +122,28 @@ export default function Projects() {
           </p>
         </li>
         <li className={style.projects_item}>
+          <a
+            className={style.projects_link}
+            href="https://maksimlisovoi.github.io/team-project-js-filmoteka/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Team Project Filmoteka{' '}
+          </a>
+          <span className={style.dots}>..................</span>
+          <span>
+            <b>[ </b>
+            <span className={style.tech_name}>HTML5, CSS3 ,JavaScript</span>
+            <b> ]</b>
+          </span>
+          <p className={style.description}>
+            <b>About project:</b> Team project about searching movies, and
+            adding favorite movies to a client personal library. Using pure
+            JavaScript, CSS3 and npm-packages.
+          </p>
+        </li>
+
+        {/* <li className={style.projects_item}>
           {' '}
           <a
             className={style.projects_link}
@@ -122,8 +165,8 @@ export default function Projects() {
             <b>About project:</b> This is my project to find movies using
             Themoviedb API. Using React.js and npm-packages.
           </p>
-        </li>
-        <li className={style.projects_item}>
+        </li> */}
+        {/* <li className={style.projects_item}>
           {' '}
           <a
             className={style.projects_link}
