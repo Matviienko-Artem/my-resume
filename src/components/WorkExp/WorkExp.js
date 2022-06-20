@@ -13,7 +13,7 @@ export default function WorkExp() {
           </span>
         </h4>
         <span className={style.profession_date}>
-          September 2021 - April 2022{' '}
+          September 2021 - until now{' '}
           <span className={style.profeiion_devider}>|</span> Ukraine
         </span>
         <ul className={style.profession_duties}>
