@@ -20,7 +20,7 @@ export default function Projects() {
             <span>
               <b>[ </b>
               <span className={style.tech_name}>
-                React.js, Unsplash API, React-cropper, Glitch-canvas
+                React, Unsplash API, React-cropper, Glitch-canvas
               </span>
               <b> ]</b>
             </span>
@@ -31,6 +31,32 @@ export default function Projects() {
             search for images from Unsplash or download images from a computer.
             Then user can crop and add a 'glitch' effect to the photo. The user
             can download "glitched" images on his computer.
+          </p>
+        </li>
+        <li className={style.projects_item}>
+          <div className={style.projects_title}>
+            <a
+              className={style.projects_link}
+              href="https://matviienko-artem.github.io/pet_project_weather"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Weather Project
+            </a>
+
+            <span>
+              <b>[ </b>
+              <span className={style.tech_name}>
+                React, Redux-toolkit, OpenWeather API, Material UI, CanvasJS
+              </span>
+              <b> ]</b>
+            </span>
+          </div>
+
+          <p className={style.description}>
+            <b>About project: </b>It's my Pet Project. The user can find the
+            current weather in the city he needs. And also find out the detailed
+            weather for 5 days in advance.
           </p>
         </li>
         <li className={style.projects_item}>

@@ -16,18 +16,34 @@ export default function WorkExp() {
           September 2021 - until now{' '}
           <span className={style.profeiion_devider}>|</span> Ukraine
         </span>
+
+        <h5 className={style.profession_duties_title}>
+          Personal Responsibilities
+        </h5>
         <ul className={style.profession_duties}>
-          <li>Bringing the designer's vision to life.</li>
-          <li>Planned, developed, deployed and maintained web applications.</li>
-          <li>Worked with Wordpress.</li>
+          <li>Scope estimation, analysis, and prioritization.</li>
           <li>
-            Provided effective troubleshooting and remediation for web
-            applications.
+            Frontend implementation and architecture design; Responsive design.
           </li>
-          <li>Worked well independently and within a team setting.</li>
+          <li>Backend team collaboration.</li>
+          <li>
+            Communicate directly to customers. Cross-team communication with
+            developers and team.
+          </li>
+          <li>Demos.</li>
+          <li>Documentation.</li>
+        </ul>
+
+        <h5 className={style.profession_duties_title}>Technologies</h5>
+        <ul className={style.profession_duties}>
+          <li>JavaScript (ES5, ES6)</li>
+          <li>WordPress</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Responsive markup for both desktop and mobiles</li>
         </ul>
       </div>
-      <div>
+      {/* <div>
         <h4 className={style.profession_title}>
           Fitness Instructor{' '}
           <span className={style.profession_title_orange}>
@@ -52,7 +68,7 @@ export default function WorkExp() {
           </li>
           <li>Providing emergency first aid if necessary.</li>
         </ul>
-      </div>
+      </div> */}
       {/* <div>
         <h4 className={style.profession_title}>
           Administrator{' '}
